@@ -16,4 +16,10 @@
     <Folder Include="Middleware\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\ServiceConnect.Application\ServiceConnect.Application.csproj" />
+    <ProjectReference Include="..\ServiceConnect.Communication\ServiceConnect.Communication.csproj" />
+    <ProjectReference Include="..\ServiceConnect.Exception\ServiceConnect.Exception.csproj" />
+  </ItemGroup>
+
 </Project>
